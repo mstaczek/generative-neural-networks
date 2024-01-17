@@ -29,3 +29,7 @@ Use [two-moons dataset from sklearn](https://scikit-learn.org/stable/modules/gen
 Implement an Invertible Neural Network, called RealNVP. Experiment with different numbers of Coupling Blocks and other hyperparameters. Implement a conditional version of RealNVP and a version with an artificial bottleneck. Compare behaviour of these models.
 
 Use [two-moons dataset from sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.html) and [digits dataset from sklearn](https://scikit-learn.org/stable/auto_examples/datasets/plot_digits_last_image.html), but also [digits from torch MNIST dataset](https://pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html).
+
+### Homework 4
+
+Generate and work with simulated epidemiology data from a basic SIR model. Train conditional normalizing flow with summary network and analyze model quality: posterior calibration, confidence intervals and posterior predictive checks, but also sensitivity analysis and model misspecification.
